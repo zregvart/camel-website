@@ -160,13 +160,12 @@ body {
   .navbar-menu.is-active {
     display: block;
     position: absolute;
-    height: 100vh;
+    height: 50vh;
     box-shadow: 0 16px 16px 0 rgba(10, 10, 10, 0.1);
     overflow-y: auto;
     top: 4rem;
     left: 0;
     right: 0;
-    margin-left: 50%;
     padding: 1rem 2rem;
   }
 
@@ -214,7 +213,7 @@ body {
   .navbar-link::after {
     border-width: 0 0 2px 2px;
     border-style: solid;
-    content: " ";
+    content: ' ';
     display: block;
     height: 0.5em;
     position: absolute;
@@ -283,7 +282,7 @@ body {
   .navbar-link::after {
     border-width: 0 0 2px 2px;
     border-style: solid;
-    content: " ";
+    content: ' ';
     display: block;
     height: 0.5em;
     pointer-events: none;
@@ -321,6 +320,7 @@ body {
 
   .navbar-item.has-dropdown {
     align-items: stretch;
+    padding-right: 2.8rem;
   }
 
   .navbar-item.has-dropdown:last-of-type .navbar-dropdown {
@@ -335,7 +335,7 @@ body {
   .navbar-link::after {
     border-width: 0 0 2px 2px;
     border-style: solid;
-    content: " ";
+    content: ' ';
     display: block;
     height: 0.5em;
     pointer-events: none;
@@ -465,6 +465,11 @@ body {
   padding-top: 0.3rem;
 }
 
+.no_search_results {
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+}
+
 .algolia-docsearch-suggestion--highlight {
   font-weight: bold;
   color: var(--color-jet-50);
@@ -499,7 +504,7 @@ body {
   }
 
   .navbar-tools .brand-icon {
-    margin: 0.25  rem;
+    margin: 0.25 rem;
   }
 }
 

@@ -2,11 +2,16 @@
 title: "Articles"
 ---
 
-### Camel Videos (Lang: English, French, Norwegian, Russian, Spannish)
+### Camel Videos
 
+*   [What’s new with Apache Camel 3? | DevNation Tech Talk](https://www.youtube.com/watch?v=HS8fPyCkgyU) - 35 min video from June 2020, by Claus and Andrea giving an overview of Camel 3, and focusing on the most exicing innovations with CamelK, Camel Quarkus and Camel Kafka Connector with 3 live demos.
+*   [Camel K serverless Integration auf Kubernetes (**German**)](https://www.youtube.com/watch?v=ZY9s4zdm_Us) - 25 min video by Perdic8 team in Germany who introduces CamelK and show live demo on Windows how to install, run and use Camel K with their impressions.
+*   [SouJava May 2020: Apache Camel 3 - The next generation of enterprise integration](https://www.youtube.com/watch?v=OP81rLuoq0I) - SouJava talk from May 2020 where Claus Ibsen and Andrea Cosentino presents an hour long session about Apache Camel, Camel v3 and goes more in depth with Camel K, Camel Quarkus and Camel Kafka Connector. At the end of the talk there is a 30 min additional QA session.
+*   [4K–Kubernetes with Knative, Kafka, and Kamel](https://www.youtube.com/watch?v=kYM6hoh2ahI) - DevNation Tech Talk from April 2020 where Kamesh Sampath celebrats his book launch of the Knative Cookbook, and runs a fast-paced live code demonstration of the coolest Knative-based techniques that we can imagine that include Kafka and Kamel.
 *   [How to quickly run 100 Camels with Apache Camel, Quarkus and GraalVM](https://www.youtube.com/watch?v=4lXSf8DBQkQ) - A 10 minute video from April 2020 where Claus shows how to run Camel in both JVM and Native compiled mode and compare startup speed and memory usage.
 *   [Best Practices for Middleware and Integration Architecture Modernization with Apache Camel](https://www.youtube.com/watch?v=d1Hr78a7Lww) - A 30 minute video from March 2020 where Claus presents Camel 3 and focused on Camel K and Camel Quarkus.
-*   [Metamorphosis: When Kafka meets Camel](https://www.youtube.com/watch?v=hJUl7R2dN00) - A 40 minute video from DevConf.CZ in January 2020 where Otavio Piske and Jakub Scholz introduce Camel and Kafka Connector and talk about how they can work together. 
+*   [Metamorphosis: When Kafka meets Camel](https://www.youtube.com/watch?v=hJUl7R2dN00) - A 40 minute video from DevConf.CZ in January 2020 where Otavio Piske and Jakub Scholz introduce Camel and Kafka Connector and talk about how they can work together.
+*   [Cloud-native integration: Kubernetes and Camel K](https://www.youtube.com/watch?v=4Xuax4s-LIc) - A 45 minute video from November 2019 by Kamesh Sampath whom presents the CamelK framework and how it helps in deploying Camel DSL code as integrations in Kubernetes/OpenShift. We will dive deeper by making them serverless and on-demand using Knative.
 *   [Camel Riders in the Cloud](https://developers.redhat.com/video/youtube/zuEYtMvHN6g/) (English) - A 30 minute video from March 2018 where Claus presents using Camel with microservices and containers as cloud native applications, and the best practices around this.
 *   [Agile Integration with Apache Camel microservices in containers on Kubernetes](https://www.youtube.com/watch?v=9FN4DuBJy8M) (English) - A 45 minute video from fall 2017 where Claus presents at CodeEurope in Poland
 *   [Containerised Integration with Apache Camel](https://www.youtube.com/watch?v=Xkg_AGLV32A&feature=youtu.be) (English) - A 70 minute video from August 2017 where Claus Ibsen present how developers can get started with Kubernetes/OpenShift on a local cluster and build and run Camel microservices in the cluster.
@@ -75,9 +80,10 @@ Articles are divided into several sections. As the lists grow, further sectionin
 *   [Easy integration between services with Apache Camel](https://blog.codecentric.de/en/2018/08/easy-integration-between-services-with-apache-camel/) - By Jan Martijn Roetman from August 2018 blogs about his experience with Apache Camel  and explain a bit what I think Apache Camel is and why it is useful. I will also give some code examples.
 *   [Auto-generating news and publishing it to WordPress with Apache Camel](https://developers.redhat.com/blog/2018/08/27/camel-wordpress-integration/) - By Ricardo Zanini from August 2018 blogs about how to generate news posts using NLG (Natural Language Generation) and post to WordPress via Apache Camel.
 *   [Streamline Software Integration: An Apache Camel Tutorial](https://www.toptal.com/apache/apache-camel-tutorial) - A longer article and tutorial on introducing Apache Camel and using Camel with microservices, testing, Kubernetes, and much more. The tutorial is based on the Camel 2.22 release.  
-*   [Getting started with Camel 3](http://www.mastertheboss.com/other/camel/getting-started-with-camel-3) - by Francesco Marchioni. A quick introduction to Camel 3 with a basic application example using a Camel Main class
-*   [Routing Camel messages to Artemis embedded in WildFly ](http://www.mastertheboss.com/other/camel/routing-camel-messages-to-artemis-embedded-in-wildfly) - by Francesco Marchioni. Shows how to route JMS messages from a Camel route to ArtemisMQ embedded in WildFly
-*   [Camel Cheatsheet](http://www.mastertheboss.com/other/camel/camel-cheatsheet) - A cheatsheet for Camel developers
+*   [Getting started with Camel 3](http://www.masteringintegration.com/apache-frameworks/camel/getting-started-with-camel-3) - by Francesco Marchioni. A quick introduction to Camel 3 with a basic application example using a Camel Main class
+*   [Routing Camel messages to Artemis embedded in WildFly ](http://www.masteringintegration.com/apache-frameworks/camel/routing-camel-messages-to-artemis-embedded-in-wildfly) - by Francesco Marchioni. Shows how to route JMS messages from a Camel route to ArtemisMQ embedded in WildFly
+*   [Camel Cheatsheet](http://www.masteringintegration.com/apache-frameworks/camel/camel-cheatsheet) - A cheatsheet for Camel developers
+*   [Proxy Web Services request with Camel](http://www.masteringintegration.com/apache-frameworks/camel/proxy-web-services-request-with-camel) - How to create a Camel proxy facade to a legacy JAX-WS Service
 *   [Create a Custom Camel logging handler for WildFly ](http://www.mastertheboss.com/jboss-server/jboss-log/create-a-custom-camel-logging-handler-for-wildfly) - by Francesco Marchioni. Shows how to use a Camel based logging handler in WildFly
 
 These examples show usage of several different components and other concepts such as error handling.
@@ -170,6 +176,7 @@ These examples show usage of several different components and other concepts suc
 
 These examples show Camel combined with several tools (e.g. IDE), ESBs, Application Services, and other middleware products such as messaging or OSGi container.
 
+*   [Using Camel and NiFi in one solution](https://medium.com/@raymondmeester/using-camel-and-nifi-in-one-solution-c7668fafe451) blog post how to use Camel inside Apache Nifi.
 *   [Wanna try our Apache Camel developer tools for Enterprise Integration Patterns?](http://macstrac.blogspot.com/2011/01/wanna-try-our-apache-camel-developer.html) _by James Strachan_
 *   [Using NetBeans 7.0 to create a new Apache Camel project](http://coders-unite.blogspot.com/2011/07/using-netbeans-70-to-create-new-project.html) shows how to start from scratch in NetBeans to setup a Apache Camel project (tutorial style with screenshots)
 *   [Using NetBeans 7.0 to create a new Apache Camel project without Spring dependency](http://coders-unite.blogspot.com/2011/07/using-netbeans-70-to-create-apache.html) shows how to start from scratch in NetBeans to setup a Apache Camel project (tutorial style with screenshots) without any Spring dependency
@@ -214,6 +221,7 @@ These examples show Camel combined with several tools (e.g. IDE), ESBs, Applicat
 *   [Integrating Amazon MQ with other AWS services via Apache Camel](https://aws.amazon.com/blogs/compute/integrating-amazon-mq-with-other-aws-services-via-apache-camel/) (April 2018) blog post from Amazon compute blogs showing the steps how to run ActiveMQ and Camel on AWS and integrate with AWS services like S3 and others. 
 *   [Ingesting Filebeat Data Into Your Apache Camel Flow](https://insights.synergistcomputing.com/2018/03/27/ingesting-filebeat-data-into-your-apache-camel-flow/) (June 2018) blog post showing how to use camel-lumberjack to ingest data from Filebeat into your Camel routes.
 *   [Using Jaeger to trace an Apache Camel application](https://medium.com/jaegertracing/using-jaeger-to-trace-an-apache-camel-application-2b8118efbb4d) (August 2018) blog post from Gary Brown showing how to use camel-opentracing and Jaeger to do distributed traces and visualize them in Jaeger UI.
+*   [Quick Integration with Apache Camel and IBM MQ](https://dzone.com/articles/quickly-integrate-apache-camel-and-ibm-mq) article from May 2020 by Chandra Shekhar Pandey showing how to use Apache Camel running on Spring Boot to integrate with IBM MQ and testing it with Docker containers.
 
 #### Camel and Groovy
 
